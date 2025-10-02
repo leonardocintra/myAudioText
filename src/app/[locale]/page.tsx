@@ -7,7 +7,7 @@ import Pricing from '@/components/landing/pricing';
 import Faq from '@/components/landing/faq';
 import Cta from '@/components/landing/cta';
 import Footer from '@/components/landing/footer';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 
 type Props = {
@@ -15,7 +15,7 @@ type Props = {
 };
 
 export async function generateMetadata({params: {locale}}: Props): Promise<Metadata> {
-  const t = await getTranslator(locale, 'Metadata');
+  const t = await getTranslations({locale, namespace: 'Metadata'});
  
   return {
     title: t('title'),
