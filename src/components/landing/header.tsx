@@ -15,7 +15,7 @@ export default function Header() {
             <Link href="#pricing">Preços</Link>
           </Button>
           <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="#pricing">Começar Teste Grátis</Link>
+            <Link href="/cadastro">Começar Teste Grátis</Link>
           </Button>
         </div>
       </div>

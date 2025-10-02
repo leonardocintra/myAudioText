@@ -45,12 +45,12 @@ export default function CadastroPage() {
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values);
     toast({
-        title: "Cadastro enviado!",
-        description: "Seus dados foram enviados com sucesso. Entraremos em contato em breve.",
+      title: "Cadastro enviado!",
+      description: "Seus dados foram enviados com sucesso. Entraremos em contato em breve.",
     });
     form.reset();
   }
-  
+
   const handleWhatsAppChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value.replace(/\D/g, '');
     form.setValue('whatsapp', value, { shouldValidate: true });
@@ -58,7 +58,7 @@ export default function CadastroPage() {
 
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center bg-muted/40 p-4">
-       <div className="absolute top-8 left-8">
+      <div className="absolute top-8 left-8">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <MessageSquareText className="h-6 w-6 text-primary" />
           <span>My Audio Text</span>
@@ -112,7 +112,8 @@ export default function CadastroPage() {
                 )}
               />
               <Button type="submit" className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
-                Criar Conta e Começar Teste Grátis
+                <Link href="/cadastro"> Criar Conta e Começar Teste Grátis</Link>
+
               </Button>
             </form>
           </Form>
