@@ -1,17 +1,14 @@
-import {notFound} from 'next/navigation';
-import {NextIntlClientProvider, useMessages} from 'next-intl';
+import type { ReactNode } from 'react';
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
  
 type Props = {
-  children: React.ReactNode;
+  children: ReactNode;
   params: {locale: string};
 };
-
-export function generateStaticParams() {
-  return [{locale: 'en'}, {locale: 'pt-BR'}];
-}
  
-export default function LocaleLayout({children, params: {locale}}: Props) {
-  const messages = useMessages();
+export default async function LocaleLayout({children, params: {locale}}: Props) {
+  const messages = await getMessages();
  
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
