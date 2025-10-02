@@ -13,7 +13,7 @@ export default function Faq() {
     },
     {
       question: "Funciona para mensagens de áudio longas?",
-      answer: "Sim! O AudioTranscriber é otimizado para áudios longos. Além da transcrição completa, ele fornece um resumo conciso dos pontos principais, para que você possa entender o essencial de uma mensagem longa em segundos.",
+      answer: "Sim! O My Audio Text é otimizado para áudios longos. Além da transcrição completa, ele fornece um resumo conciso dos pontos principais, para que você possa entender o essencial de uma mensagem longa em segundos.",
     },
     {
       question: "Quais plataformas são suportadas?",
@@ -33,7 +33,7 @@ export default function Faq() {
         <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Perguntas Frequentes</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-                Encontre respostas para perguntas comuns sobre o AudioTranscriber.
+                Encontre respostas para perguntas comuns sobre o My Audio Text.
             </p>
         </div>
         <div className="mx-auto mt-12 max-w-3xl">

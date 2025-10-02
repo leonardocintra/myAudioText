@@ -8,7 +8,7 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold">
           <MessageSquareText className="h-6 w-6 text-primary" />
-          <span className="hidden sm:inline-block">AudioTranscriber</span>
+          <span className="hidden sm:inline-block">My Audio Text</span>
         </Link>
         <div className="flex items-center gap-2">
           <Button asChild variant="ghost" className="hidden sm:inline-flex">

@@ -21,7 +21,7 @@ export default function Accessibility() {
             Tornando a Comunicação Inclusiva
           </h2>
           <p className="text-lg text-muted-foreground">
-            Para profissionais surdos ou com deficiência auditiva, as mensagens de voz podem ser uma grande barreira. O AudioTranscriber quebra essa barreira, fornecendo versões em texto instantâneas e precisas de todas as mensagens de áudio.
+            Para profissionais surdos ou com deficiência auditiva, as mensagens de voz podem ser uma grande barreira. O My Audio Text quebra essa barreira, fornecendo versões em texto instantâneas e precisas de todas as mensagens de áudio.
           </p>
           <p className="text-lg text-muted-foreground">
             Nossa ferramenta garante que todos possam participar plenamente das conversas, sem perder informações críticas. Não é apenas uma conveniência — é uma ferramenta necessária para a comunicação inclusiva.

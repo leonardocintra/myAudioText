@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'AudioTranscriber | Converta Áudios em Texto Instantaneamente',
+  title: 'My Audio Text | Converta Áudios em Texto Instantaneamente',
   description: 'Economize tempo, melhore a acessibilidade e aumente a produtividade com a conversão instantânea de áudio para texto no WhatsApp, Instagram e Telegram.',
 };
 

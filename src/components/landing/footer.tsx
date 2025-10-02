@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2 font-bold">
               <MessageSquareText className="h-6 w-6 text-primary" />
-              <span className="text-lg">AudioTranscriber</span>
+              <span className="text-lg">My Audio Text</span>
             </Link>
             <p className="text-muted-foreground">
               Conversão instantânea de áudio para texto para a comunicação moderna.
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>© {year} AudioTranscriber. Todos os direitos reservados.</p>
+          <p>© {year} My Audio Text. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
