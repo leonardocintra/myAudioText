@@ -8,32 +8,32 @@ import {
 export default function Faq() {
   const faqs = [
     {
-      question: "How accurate is the transcription?",
-      answer: "Our AI-powered transcription is highly accurate, often exceeding 95% accuracy for clear audio. It's designed to handle various accents and background noise levels, providing reliable text versions of your voice messages.",
+      question: "Qual é a precisão da transcrição?",
+      answer: "Nossa transcrição por IA é altamente precisa, geralmente ultrapassando 95% de precisão para áudios claros. Ela é projetada para lidar com vários sotaques e níveis de ruído de fundo, fornecendo versões em texto confiáveis de suas mensagens de voz.",
     },
     {
-      question: "Does it work for long audio messages?",
-      answer: "Yes! AudioTranscriber is optimized for long audios. In addition to full transcription, it provides a concise summary of the key points, so you can get the gist of a long message in seconds.",
+      question: "Funciona para mensagens de áudio longas?",
+      answer: "Sim! O AudioTranscriber é otimizado para áudios longos. Além da transcrição completa, ele fornece um resumo conciso dos pontos principais, para que você possa entender o essencial de uma mensagem longa em segundos.",
     },
     {
-      question: "Which platforms are supported?",
-      answer: "We currently support WhatsApp, Instagram Direct, and Telegram. We are always working on expanding our services to other platforms.",
+      question: "Quais plataformas são suportadas?",
+      answer: "Atualmente, suportamos WhatsApp, Instagram Direct e Telegram. Estamos sempre trabalhando para expandir nossos serviços para outras plataformas.",
     },
     {
-      question: "Can I cancel anytime?",
-      answer: "Absolutely. You can cancel your subscription at any time directly from your account dashboard, no questions asked. You will retain access until the end of your current billing period.",
+      question: "Posso cancelar a qualquer momento?",
+      answer: "Com certeza. Você pode cancelar sua assinatura a qualquer momento diretamente do seu painel de conta, sem perguntas. Você manterá o acesso até o final do seu período de faturamento atual.",
     },
     {
-      question: "Is there a limit on the number of transcriptions?",
-      answer: "Our monthly plan includes unlimited transcriptions. You can convert as many voice messages as you need without worrying about hitting a limit."
+      question: "Existe um limite para o número de transcrições?",
+      answer: "Nosso plano mensal inclui transcrições ilimitadas. Você pode converter quantas mensagens de voz precisar, sem se preocupar em atingir um limite."
     }
   ];
   return (
     <section id="faq" className="container">
         <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Perguntas Frequentes</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-                Find answers to common questions about AudioTranscriber.
+                Encontre respostas para perguntas comuns sobre o AudioTranscriber.
             </p>
         </div>
         <div className="mx-auto mt-12 max-w-3xl">

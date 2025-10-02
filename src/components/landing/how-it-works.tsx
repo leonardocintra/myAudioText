@@ -6,18 +6,18 @@ export default function HowItWorks() {
 
   const steps = [
     {
-      title: "1. Register Your Number",
-      description: "Enter your WhatsApp number with DDD to link your account.",
+      title: "1. Cadastre Seu Número",
+      description: "Insira seu número de WhatsApp com DDD para vincular sua conta.",
       image: PlaceHolderImages.find((img) => img.id === "how-it-works-1"),
     },
     {
-      title: "2. Start Your Free Trial",
-      description: "Activate your 15-day free trial. No credit card required.",
+      title: "2. Comece Seu Teste Grátis",
+      description: "Ative seu teste gratuito de 15 dias. Não é necessário cartão de crédito.",
       image: PlaceHolderImages.find((img) => img.id === "how-it-works-2"),
     },
     {
-      title: "3. Get Instant Transcriptions",
-      description: "Forward any voice message and receive the text transcription instantly.",
+      title: "3. Receba Transcrições Instantâneas",
+      description: "Encaminhe qualquer mensagem de voz e receba a transcrição em texto instantaneamente.",
       image: PlaceHolderImages.find((img) => img.id === "how-it-works-3"),
     },
   ];
@@ -25,9 +25,9 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works" className="container">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Get Started in 3 Simple Steps</h2>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Comece em 3 Passos Simples</h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          Transform your voice messages into text with a setup that takes less than a minute.
+          Transforme suas mensagens de voz em texto com uma configuração que leva menos de um minuto.
         </p>
       </div>
       <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">

@@ -12,10 +12,10 @@ export default function Header() {
         </Link>
         <div className="flex items-center gap-2">
           <Button asChild variant="ghost" className="hidden sm:inline-flex">
-            <Link href="#pricing">Pricing</Link>
+            <Link href="#pricing">Preços</Link>
           </Button>
           <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="#pricing">Start Free Trial</Link>
+            <Link href="#pricing">Começar Teste Grátis</Link>
           </Button>
         </div>
       </div>

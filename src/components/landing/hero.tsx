@@ -10,13 +10,13 @@ export default function Hero() {
     <section id="hero" className="container">
       <div className="mx-auto flex max-w-4xl flex-col items-center gap-4 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-6xl">
-          Convert Your WhatsApp Audios to Text Instantly
+          Converta Seus Áudios do WhatsApp em Texto Instantaneamente
         </h1>
         <p className="max-w-2xl text-lg text-muted-foreground">
-          Save time, improve accessibility, and boost productivity with instant audio-to-text conversion.
+          Economize tempo, melhore a acessibilidade e aumente a produtividade com a conversão instantânea de áudio para texto.
         </p>
         <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
-          <Link href="#pricing">Start Free Trial</Link>
+          <Link href="#pricing">Começar Teste Grátis</Link>
         </Button>
       </div>
       <div className="mx-auto mt-12 max-w-5xl">

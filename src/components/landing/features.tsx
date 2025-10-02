@@ -6,42 +6,42 @@ export default function Features() {
   const features = [
     {
       icon: <BotMessageSquare className="h-8 w-8 text-primary" />,
-      title: "Instant Transcription",
-      description: "Get transcriptions directly inside WhatsApp, Instagram Direct, and Telegram.",
+      title: "Transcrição Instantânea",
+      description: "Receba transcrições diretamente no WhatsApp, Instagram Direct e Telegram.",
     },
     {
       icon: <Gauge className="h-8 w-8 text-primary" />,
-      title: "Fast & Accurate",
-      description: "Our AI is faster and more accurate than native transcription services.",
+      title: "Rápido e Preciso",
+      description: "Nossa IA é mais rápida e precisa do que os serviços de transcrição nativos.",
     },
     {
       icon: <FileText className="h-8 w-8 text-primary" />,
-      title: "Summaries for Long Audios",
-      description: "Receive concise summaries for long audio messages, saving you even more time.",
+      title: "Resumos para Áudios Longos",
+      description: "Receba resumos concisos para mensagens de áudio longas, economizando ainda mais tempo.",
     },
     {
       icon: <Accessibility className="h-8 w-8 text-primary" />,
-      title: "Enhanced Accessibility",
-      description: "A vital tool for deaf or hard of hearing users to access voice messages.",
+      title: "Acessibilidade Aprimorada",
+      description: "Uma ferramenta vital para usuários surdos ou com deficiência auditiva acessarem mensagens de voz.",
     },
     {
       icon: <Settings className="h-8 w-8 text-primary" />,
-      title: "Easy Setup",
-      description: "No complex installations. Get started in minutes with just your phone number.",
+      title: "Configuração Fácil",
+      description: "Sem instalações complexas. Comece em minutos apenas com seu número de telefone.",
     },
     {
       icon: <Clock className="h-8 w-8 text-primary" />,
-      title: "Save Time",
-      description: "Read messages at your own pace and quickly search through transcribed content.",
+      title: "Economize Tempo",
+      description: "Leia as mensagens no seu próprio ritmo e pesquise rapidamente pelo conteúdo transcrito.",
     },
-  ];
+];
 
   return (
     <section id="features" className="container">
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Everything you need, nothing you don't.</h2>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Tudo o que você precisa, sem o que não precisa.</h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          Focus on what matters. Our tool seamlessly integrates into your workflow to make communication easier and more efficient.
+          Concentre-se no que importa. Nossa ferramenta se integra perfeitamente ao seu fluxo de trabalho para tornar a comunicação mais fácil e eficiente.
         </p>
       </div>
       <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

@@ -4,8 +4,8 @@ import { Toaster } from '@/components/ui/toaster';
 import { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'AudioTranscriber | Convert Audios to Text Instantly',
-  description: 'Save time, improve accessibility, and boost productivity with instant audio-to-text conversion for WhatsApp, Instagram, and Telegram.',
+  title: 'AudioTranscriber | Converta Áudios em Texto Instantaneamente',
+  description: 'Economize tempo, melhore a acessibilidade e aumente a produtividade com a conversão instantânea de áudio para texto no WhatsApp, Instagram e Telegram.',
 };
 
 type Props = {
@@ -16,7 +16,7 @@ type Props = {
 // is required, even if it's just passing children through.
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="pt-BR" className="!scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
