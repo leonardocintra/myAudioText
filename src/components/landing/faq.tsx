@@ -4,38 +4,36 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { useTranslations } from "next-intl";
 
 export default function Faq() {
-  const t = useTranslations("Faq");
   const faqs = [
     {
-      question: t("q1"),
-      answer: t("a1"),
+      question: "How accurate is the transcription?",
+      answer: "Our AI-powered transcription is highly accurate, often exceeding 95% accuracy for clear audio. It's designed to handle various accents and background noise levels, providing reliable text versions of your voice messages.",
     },
     {
-      question: t("q2"),
-      answer: t("a2"),
+      question: "Does it work for long audio messages?",
+      answer: "Yes! AudioTranscriber is optimized for long audios. In addition to full transcription, it provides a concise summary of the key points, so you can get the gist of a long message in seconds.",
     },
     {
-      question: t("q3"),
-      answer: t("a3"),
+      question: "Which platforms are supported?",
+      answer: "We currently support WhatsApp, Instagram Direct, and Telegram. We are always working on expanding our services to other platforms.",
     },
     {
-      question: t("q4"),
-      answer: t("a4"),
+      question: "Can I cancel anytime?",
+      answer: "Absolutely. You can cancel your subscription at any time directly from your account dashboard, no questions asked. You will retain access until the end of your current billing period.",
     },
     {
-      question: t("q5"),
-      answer: t("a5"),
+      question: "Is there a limit on the number of transcriptions?",
+      answer: "Our monthly plan includes unlimited transcriptions. You can convert as many voice messages as you need without worrying about hitting a limit."
     }
   ];
   return (
     <section id="faq" className="container">
         <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{t("title")}</h2>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Frequently Asked Questions</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-                {t("subtitle")}
+                Find answers to common questions about AudioTranscriber.
             </p>
         </div>
         <div className="mx-auto mt-12 max-w-3xl">

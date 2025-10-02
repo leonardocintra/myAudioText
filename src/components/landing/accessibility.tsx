@@ -3,10 +3,8 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Ear } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
 
 export default function Accessibility() {
-  const t = useTranslations("Accessibility");
   const accessibilityImage = PlaceHolderImages.find(
     (img) => img.id === "accessibility-image"
   );
@@ -17,19 +15,19 @@ export default function Accessibility() {
         <div className="flex flex-col gap-4">
           <div className="inline-flex items-center rounded-lg bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
             <Ear className="-ml-1 mr-2 h-4 w-4" />
-            {t("tag")}
+            Accessibility First
           </div>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            {t("title")}
+            Making Communication Inclusive
           </h2>
           <p className="text-lg text-muted-foreground">
-            {t("p1")}
+            For professionals who are deaf or hard of hearing, voice messages can be a major barrier. AudioTranscriber breaks down this barrier by providing instant, accurate text versions of all audio messages.
           </p>
           <p className="text-lg text-muted-foreground">
-            {t("p2")}
+            Our tool ensures that everyone can participate in conversations fully, without missing out on critical information. It's not just a convenience—it's a necessary tool for inclusive communication.
           </p>
           <Button asChild size="lg" className="mt-4 w-fit bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="#pricing">{t("cta")}</Link>
+            <Link href="#pricing">Learn More & Get Started</Link>
           </Button>
         </div>
         <div className="relative aspect-4/3 overflow-hidden rounded-xl shadow-lg">

@@ -1,23 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { MessageSquareText } from "lucide-react";
-import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function Header() {
-  const t = useTranslations("Header");
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold">
           <MessageSquareText className="h-6 w-6 text-primary" />
-          <span className="hidden sm:inline-block">{t("appName")}</span>
+          <span className="hidden sm:inline-block">AudioTranscriber</span>
         </Link>
         <div className="flex items-center gap-2">
           <Button asChild variant="ghost" className="hidden sm:inline-flex">
-            <Link href="#pricing">{t("pricing")}</Link>
+            <Link href="#pricing">Pricing</Link>
           </Button>
           <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
-            <Link href="#pricing">{t("startTrial")}</Link>
+            <Link href="#pricing">Start Free Trial</Link>
           </Button>
         </div>
       </div>
