@@ -47,7 +47,7 @@ export default function Features() {
       <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {features.map((feature) => (
           <Card key={feature.title} className="flex flex-col items-center p-6 text-center">
-            <CardHeader>
+            <CardHeader className="items-center">
               {feature.icon}
               <CardTitle className="mt-4">{feature.title}</CardTitle>
             </CardHeader>

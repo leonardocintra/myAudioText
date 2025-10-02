@@ -1,4 +1,4 @@
-# **App Name**: AudioTranscriber
+# **App Name**: My Audio Text
 
 ## Core Features:
 
