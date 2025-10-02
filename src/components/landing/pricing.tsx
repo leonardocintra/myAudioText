@@ -43,7 +43,7 @@ export default function Pricing() {
           </CardContent>
           <CardFooter>
             <Button asChild size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90">
-              <Link href="#">Assine Agora</Link>
+              <Link href="/cadastro">Assine Agora</Link>
             </Button>
           </CardFooter>
         </Card>
