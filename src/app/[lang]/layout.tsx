@@ -1,33 +1,33 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { getDictionary } from "@/lib/dictionaries";
+import { Locale } from "@/i18n.config";
+import { DictionaryProvider } from "@/lib/dictionary-provider";
 
 export const metadata: Metadata = {
   title: "My Audio Text",
   description: "Transcrição de áudios do WhatsApp em texto instantaneamente",
 };
 
-export default function RootLayout({
+export default async function LangLayout({
   children,
-}: Readonly<{
+  params,
+}: {
   children: React.ReactNode;
-}>) {
+  params: Promise<{ lang: string }>; // 👈 deixar string aqui
+}) {
+  const { lang } = await params;
+
+  // 👇 fazer cast manual depois de obter
+  const locale = lang as Locale;
+  const dictionary = await getDictionary(locale);
+
   return (
-    <html lang="pt-br">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang={locale}>
+      <body>
+        <DictionaryProvider dictionary={dictionary}>
+          {children}
+        </DictionaryProvider>
       </body>
     </html>
   );
