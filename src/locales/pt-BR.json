@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "title": "Converta Áudios do WhatsApp em Texto Instantaneamente",
+    "subtitle": "Nunca mais perca mensagens importantes. Transcrições precisas, rápidas e acessíveis para todos.",
+    "cta": "Testar Grátis por 15 Dias",
+    "noCreditCard": "Sem cartão de crédito"
+  },
+  "features": {
+    "title": "Por que escolher o My Audio Text?",
+    "subtitle": "A solução mais completa para transcrição de áudios",
+    "feature1": {
+      "title": "Transcrição Instantânea",
+      "description": "Receba o texto do áudio em segundos, direto no WhatsApp"
+    },
+    "feature2": {
+      "title": "Mais Preciso que o Nativo",
+      "description": "Nossa IA entende sotaques, ruídos e áudios longos"
+    },
+    "feature3": {
+      "title": "Suporte a Áudios Longos",
+      "description": "Sem limite de tempo. Inclui resumo automático para facilitar"
+    },
+    "feature4": {
+      "title": "Extremamente Simples",
+      "description": "Envie o áudio, pronto. Sem aplicativos extras"
+    },
+    "feature5": {
+      "title": "Focado em Acessibilidade",
+      "description": "Pensado para pessoas surdas e com deficiência auditiva"
+    },
+    "feature6": {
+      "title": "Novidades em Breve",
+      "description": "Instagram Direct e Telegram chegando em breve!"
+    }
+  },
+  "comparison": {
+    "title": "Veja a Diferença",
+    "subtitle": "WhatsApp nativo vs My Audio Text",
+    "native": "WhatsApp Nativo",
+    "nativeFail": "Falha frequente",
+    "ours": "My Audio Text",
+    "oursSuccess": "Sempre funciona"
+  },
+  "pricing": {
+    "title": "Um único plano. Simples e acessível.",
+    "subtitle": "Sem surpresas, sem taxas ocultas",
+    "price": "R$ 4,90",
+    "period": "/mês",
+    "trial": "15 dias grátis",
+    "feature1": "Transcrições ilimitadas",
+    "feature2": "Suporte a áudios longos",
+    "feature3": "Resumo automático incluído",
+    "feature4": "Cancele quando quiser",
+    "cta": "Começar Teste Grátis"
+  },
+  "howItWorks": {
+    "title": "Como Funciona?",
+    "subtitle": "Em 3 passos simples",
+    "step1": {
+      "title": "1. Informe seu número",
+      "description": "Digite seu WhatsApp com DDD"
+    },
+    "step2": {
+      "title": "2. Inicie o teste",
+      "description": "Comece grátis por 15 dias"
+    },
+    "step3": {
+      "title": "3. Receba transcrições",
+      "description": "Envie áudios e receba textos instantaneamente"
+    }
+  },
+  "accessibility": {
+    "title": "Acessibilidade em Primeiro Lugar",
+    "description": "O My Audio Text nasceu com um propósito: tornar as mensagens de áudio acessíveis para todos. Se você é surdo, tem deficiência auditiva, ou simplesmente prefere ler ao invés de ouvir, nossa solução foi feita pensando em você. Acreditamos que a comunicação deve ser inclusiva, rápida e sem barreiras.",
+    "cta": "Experimente Grátis"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "q1": {
+      "question": "A transcrição é realmente precisa?",
+      "answer": "Sim! Nossa IA é treinada para entender diferentes sotaques, ambientes com ruído e até áudios com qualidade inferior. Na maioria dos casos, somos mais precisos que a transcrição nativa do WhatsApp."
+    },
+    "q2": {
+      "question": "Funciona com áudios muito longos?",
+      "answer": "Sim! Não há limite de tempo. Para áudios muito longos, oferecemos também um resumo automático para facilitar a leitura."
+    },
+    "q3": {
+      "question": "Posso cancelar a qualquer momento?",
+      "answer": "Sim! Sem contratos ou multas. Você pode cancelar quando quiser, direto pelo WhatsApp."
+    },
+    "q4": {
+      "question": "Quando vem Instagram e Telegram?",
+      "answer": "Estamos trabalhando nisso! A integração com Instagram Direct e Telegram está prevista para os próximos meses. Assinantes atuais terão acesso automático."
+    },
+    "q5": {
+      "question": "Como funciona o teste grátis?",
+      "answer": "Você tem 15 dias completos para testar todas as funcionalidades. Não pedimos cartão de crédito antecipadamente. Se gostar, ative a assinatura ao final do período."
+    },
+    "q6": {
+      "question": "É seguro?",
+      "answer": "Totalmente! Seus áudios são processados de forma segura e nenhum conteúdo é armazenado após a transcrição. Sua privacidade é nossa prioridade."
+    }
+  },
+  "footer": {
+    "tagline": "Transformando áudios em texto. Simples assim.",
+    "cta": "Começar Agora",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "contact": "Contato"
+  },
+  "language": {
+    "pt": "Português",
+    "en": "English"
+  }
+}

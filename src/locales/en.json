@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "title": "Convert WhatsApp Audio to Text Instantly",
+    "subtitle": "Never miss important messages again. Fast, accurate, and accessible transcriptions for everyone.",
+    "cta": "Try Free for 15 Days",
+    "noCreditCard": "No credit card required"
+  },
+  "features": {
+    "title": "Why Choose My Audio Text?",
+    "subtitle": "The most complete audio transcription solution",
+    "feature1": {
+      "title": "Instant Transcription",
+      "description": "Get audio text in seconds, directly on WhatsApp"
+    },
+    "feature2": {
+      "title": "More Accurate than Native",
+      "description": "Our AI understands accents, noise, and long audios"
+    },
+    "feature3": {
+      "title": "Long Audio Support",
+      "description": "No time limit. Includes automatic summary"
+    },
+    "feature4": {
+      "title": "Extremely Simple",
+      "description": "Send the audio, done. No extra apps needed"
+    },
+    "feature5": {
+      "title": "Accessibility First",
+      "description": "Designed for deaf and hard of hearing people"
+    },
+    "feature6": {
+      "title": "Coming Soon",
+      "description": "Instagram Direct and Telegram coming soon!"
+    }
+  },
+  "comparison": {
+    "title": "See the Difference",
+    "subtitle": "Native WhatsApp vs My Audio Text",
+    "native": "Native WhatsApp",
+    "nativeFail": "Frequently fails",
+    "ours": "My Audio Text",
+    "oursSuccess": "Always works"
+  },
+  "pricing": {
+    "title": "One simple plan. Affordable.",
+    "subtitle": "No surprises, no hidden fees",
+    "price": "$0.99",
+    "period": "/month",
+    "trial": "15 days free",
+    "feature1": "Unlimited transcriptions",
+    "feature2": "Long audio support",
+    "feature3": "Automatic summary included",
+    "feature4": "Cancel anytime",
+    "cta": "Start Free Trial"
+  },
+  "howItWorks": {
+    "title": "How It Works?",
+    "subtitle": "In 3 simple steps",
+    "step1": {
+      "title": "1. Enter your number",
+      "description": "Type your WhatsApp number"
+    },
+    "step2": {
+      "title": "2. Start trial",
+      "description": "Start free for 15 days"
+    },
+    "step3": {
+      "title": "3. Get transcriptions",
+      "description": "Send audios and receive texts instantly"
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility First",
+    "description": "My Audio Text was born with a purpose: to make audio messages accessible to everyone. If you're deaf, hard of hearing, or simply prefer reading over listening, our solution was made with you in mind. We believe communication should be inclusive, fast, and barrier-free.",
+    "cta": "Try for Free"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": {
+      "question": "Is the transcription really accurate?",
+      "answer": "Yes! Our AI is trained to understand different accents, noisy environments, and even low-quality audio. In most cases, we're more accurate than WhatsApp's native transcription."
+    },
+    "q2": {
+      "question": "Does it work with very long audios?",
+      "answer": "Yes! There's no time limit. For very long audios, we also provide an automatic summary for easy reading."
+    },
+    "q3": {
+      "question": "Can I cancel anytime?",
+      "answer": "Yes! No contracts or penalties. You can cancel whenever you want, directly through WhatsApp."
+    },
+    "q4": {
+      "question": "When is Instagram and Telegram coming?",
+      "answer": "We're working on it! Integration with Instagram Direct and Telegram is planned for the coming months. Current subscribers will get automatic access."
+    },
+    "q5": {
+      "question": "How does the free trial work?",
+      "answer": "You have 15 full days to test all features. We don't ask for a credit card upfront. If you like it, activate the subscription at the end of the period."
+    },
+    "q6": {
+      "question": "Is it safe?",
+      "answer": "Absolutely! Your audios are processed securely and no content is stored after transcription. Your privacy is our priority."
+    }
+  },
+  "footer": {
+    "tagline": "Transforming audio into text. Simple as that.",
+    "cta": "Start Now",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
+  },
+  "language": {
+    "pt": "Português",
+    "en": "English"
+  }
+}
